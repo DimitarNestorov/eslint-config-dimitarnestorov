@@ -1,0 +1,6 @@
+{
+    "env": {
+        "node": true
+    },
+    "extends": "./index.js" // Making sure I don't forget about that comma-dangle rule by any chance
+}
