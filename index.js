@@ -51,6 +51,7 @@ module.exports = {
 				while: spacingBeforeAfterFalse,
 				if: spacingBeforeAfterFalse,
 				else: spacingBeforeAfterFalse,
+				for: spacingBeforeAfterFalse,
 				return: {
 					after: true
 				}
@@ -65,6 +66,9 @@ module.exports = {
 			avoidQuotes: true
 		}],
 		indent: ["error", "tab"], // I'm working on a solution regarding this rule and everyones preference
-		"quote-props": ["error", "as-needed"]
+		"quote-props": ["error", "as-needed"],
+		"no-extra-parens": ["error", "all", {
+			nestedBinaryExpressions: false
+		}]
 	}
 };
