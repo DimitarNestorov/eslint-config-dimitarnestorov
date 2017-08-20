@@ -72,6 +72,8 @@ module.exports = {
 		"quote-props": ["error", "as-needed"], // I'm working on a solution regarding this rule and everyones preference
 		"no-extra-parens": ["error", "all", {
 			nestedBinaryExpressions: false
-		}]
+		}],
+		"no-multiple-empty-lines": "error",
+		"padded-blocks": ["error", "never"]
 	}
 };
