@@ -1,4 +1,4 @@
-var spacingBeforeAfterFalse = {
+var noSpacing = {
 	before: false,
 	after: false
 };
@@ -48,25 +48,28 @@ module.exports = {
 				do: {
 					after: true
 				},
-				while: spacingBeforeAfterFalse,
-				if: spacingBeforeAfterFalse,
-				else: spacingBeforeAfterFalse,
-				for: spacingBeforeAfterFalse,
+				while: noSpacing,
+				if: noSpacing,
+				else: noSpacing,
+				for: noSpacing,
+				switch: noSpacing,
 				return: {
 					after: true
 				}
 			}
-		}],
+		}], // I'm working on a solution regarding this rule and everyones preference
 		"key-spacing": ["error", {
 			beforeColon: false,
 			afterColon: true,
 			mode: "strict"
-		}],
+		}], // I'm working on a solution regarding this rule and everyones preference
 		"object-shorthand": ["error", "always", {
 			avoidQuotes: true
 		}],
-		indent: ["error", "tab"], // I'm working on a solution regarding this rule and everyones preference
-		"quote-props": ["error", "as-needed"],
+		indent: ["error", "tab", {
+			SwitchCase: 1
+		}], // I'm working on a solution regarding this rule and everyones preference
+		"quote-props": ["error", "as-needed"], // I'm working on a solution regarding this rule and everyones preference
 		"no-extra-parens": ["error", "all", {
 			nestedBinaryExpressions: false
 		}]
