@@ -76,6 +76,9 @@ module.exports = {
 			nestedBinaryExpressions: false
 		}],
 		"no-multiple-empty-lines": "error",
-		"padded-blocks": ["error", "never"]
+		"padded-blocks": ["error", "never"],
+		quotes: ["error", "backtick", {
+			avoidEscape: true
+		}]
 	}
 };

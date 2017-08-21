@@ -1,6 +1,12 @@
 {
     "env": {
-        "node": true
+        "node": true,
+        "es6": false
     },
-    "extends": "./index.js" // Making sure I don't forget about that comma-dangle rule by any chance
+    "extends": "./index.js", // Making sure I don't forget about that comma-dangle rule by any chance
+    "rules": {
+		"quotes": ["error", "double", { // Already have made a couple of versions of the file, that way it also supports everything before ES6 (notice the vars at the top).
+			"avoidEscape": true
+		}]
+    }
 }
