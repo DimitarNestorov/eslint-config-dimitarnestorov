@@ -3,6 +3,10 @@ var noSpacing = {
 	after: false
 };
 
+var spacingAfter = {
+	after: true
+};
+
 module.exports = {
 	rules: {
 		"no-undef": "error",
@@ -45,17 +49,15 @@ module.exports = {
 		"arrow-spacing": "error",
 		"keyword-spacing": ["error", {
 			overrides: {
-				do: {
-					after: true
-				},
+				do: spacingAfter,
 				while: noSpacing,
 				if: noSpacing,
 				else: noSpacing,
 				for: noSpacing,
 				switch: noSpacing,
-				return: {
-					after: true
-				}
+				try: spacingAfter,
+				catch: noSpacing,
+				return: spacingAfter
 			}
 		}], // I'm working on a solution regarding this rule and everyones preference
 		"key-spacing": ["error", {
