@@ -57,6 +57,7 @@ module.exports = {
 				switch: noSpacing,
 				try: spacingAfter,
 				catch: noSpacing,
+				finally: noSpacing,
 				return: spacingAfter
 			}
 		}], // I'm working on a solution regarding this rule and everyones preference
