@@ -76,7 +76,9 @@ module.exports = {
 		"no-extra-parens": ["error", "all", {
 			nestedBinaryExpressions: false
 		}],
-		"no-multiple-empty-lines": "error",
+		"no-multiple-empty-lines": ["error", {
+			max: 1
+		}],
 		"padded-blocks": ["error", "never"],
 		"space-before-function-paren": ["error", "never"],
 		quotes: ["error", "backtick", {
