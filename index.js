@@ -78,6 +78,7 @@ module.exports = {
 		}],
 		"no-multiple-empty-lines": "error",
 		"padded-blocks": ["error", "never"],
+		"space-before-function-paren": ["error", "never"],
 		quotes: ["error", "backtick", {
 			avoidEscape: true
 		}]
