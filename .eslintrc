@@ -7,6 +7,7 @@
     "rules": {
 		"quotes": ["error", "double", { // Already have made a couple of versions of the file, that way it also supports everything before ES6 (notice the vars at the top).
 			"avoidEscape": true
-		}]
+        }],
+        "no-var": "off" // ES5 Support
     }
 }

@@ -83,6 +83,14 @@ module.exports = {
 		"space-before-function-paren": ["error", "never"],
 		quotes: ["error", "backtick", {
 			avoidEscape: true
-		}]
+		}],
+		"no-restricted-globals": [
+			"error",
+			{
+				name: "event",
+				message: "Use local parameter instead."
+			}
+		],
+		"no-var": "error"
 	}
 };
