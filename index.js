@@ -89,8 +89,13 @@ module.exports = {
 			{
 				name: "event",
 				message: "Use local parameter instead."
+			},
+			{
+				name: "close",
+				message: "Use window.close or define close."
 			}
 		],
-		"no-var": "error"
+		"no-var": "error",
+		"space-in-parens": ["error", "never"]
 	}
 };
