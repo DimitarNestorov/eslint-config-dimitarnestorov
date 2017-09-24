@@ -96,6 +96,15 @@ module.exports = {
 			}
 		],
 		"no-var": "error",
+		"no-use-before-define": ["error", {
+			functions: false
+		}],
+		"new-cap": "error",
+		"no-extend-native": "error",
+		"no-caller": "error",
+		curly: ["error", "multi-line"],
+		"linebreak-style": ["error", "unix"],
+		"one-var": ["error", "never"],
 		"space-in-parens": ["error", "never"]
 	}
 };
