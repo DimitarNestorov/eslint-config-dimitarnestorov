@@ -107,6 +107,7 @@ module.exports = {
 		"one-var": ["error", "never"],
 		"array-bracket-spacing": ["error", "never"],
 		"comma-spacing": "error",
+		"semi-spacing": "error",
 		"space-in-parens": ["error", "never"]
 	}
 };
