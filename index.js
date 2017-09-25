@@ -105,6 +105,7 @@ module.exports = {
 		curly: ["error", "multi-line"],
 		"linebreak-style": ["error", "unix"],
 		"one-var": ["error", "never"],
+		"array-bracket-spacing": ["error", "never"],
 		"space-in-parens": ["error", "never"]
 	}
 };
