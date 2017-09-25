@@ -106,6 +106,7 @@ module.exports = {
 		"linebreak-style": ["error", "unix"],
 		"one-var": ["error", "never"],
 		"array-bracket-spacing": ["error", "never"],
+		"comma-spacing": "error",
 		"space-in-parens": ["error", "never"]
 	}
 };
