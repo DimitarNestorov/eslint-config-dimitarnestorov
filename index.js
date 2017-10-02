@@ -108,6 +108,9 @@ module.exports = {
 		"array-bracket-spacing": ["error", "never"],
 		"comma-spacing": "error",
 		"semi-spacing": "error",
+		"no-extra-semi": "error",
+		"space-unary-ops": "error",
+		"space-infix-ops": "error",
 		"space-in-parens": ["error", "never"]
 	}
 };

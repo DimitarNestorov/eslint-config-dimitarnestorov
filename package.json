@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-dimitarnestorov",
-  "version": "1.0.14",
+  "version": "1.0.15",
   "description": "The ESLint configuration the author uses",
   "main": "index.js",
   "repository": "https://github.com/dimitarnestorov/eslint-config-dimitarnestorov.git",
