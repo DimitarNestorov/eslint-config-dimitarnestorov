@@ -111,6 +111,8 @@ module.exports = {
 		"no-extra-semi": "error",
 		"space-unary-ops": "error",
 		"space-infix-ops": "error",
+		"no-useless-concat": "error",
+		"prefer-template": "error",
 		"space-in-parens": ["error", "never"]
 	}
 };
