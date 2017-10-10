@@ -113,6 +113,7 @@ module.exports = {
 		"space-infix-ops": "error",
 		"no-useless-concat": "error",
 		"prefer-template": "error",
+		radix: "error",
 		"space-in-parens": ["error", "never"]
 	}
 };
